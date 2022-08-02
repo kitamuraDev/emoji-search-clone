@@ -1,15 +1,15 @@
 <br />
 
-<h3 align="center">Vite × React × TypeScript Starter Template</h3>
+<h3 align="center">Emoji Search clone</h3>
 
 <br />
 
-# Features
+# What is this
 
-- Minimal configure
-- Build with Vite
-- ESLint（Airbnb style guide）and Prettier Supported
-- Run ESLint on every commit（CI）
+- Emoji Search App
+- One of React official small example
+- Rewritten with React Hooks and TypeScript
+- Official repository -> -> -> https://github.com/ahfarmer/emoji-search
 
 # Tech Stack
 
@@ -49,18 +49,7 @@ $ git clone https://github.com/kitamuraDev/vite-react-ts-starter.git
 $ cd vite-react-ts-starter
 ```
 
-3. Rewrite git information
-
-```bash
-$ rm -rf .git
-$ git init
-$ git add .
-$ git commit -m "Initial commit"
-$ git remote add origin https://github.com/user/repo.git
-$ git push -u origin main
-```
-
-4. Install dependencies
+3. Install dependencies
 
 ```bash
 $ yarn
@@ -70,19 +59,19 @@ or
 $ yarn install
 ```
 
-5. Launch application
+4. Launch application
 
 ```bash
 $ yarn dev
 ```
 
-6. Build application
+5. Build application
 
 ```bash
 $ yarn build
 ```
 
-7. Preview build results
+6. Preview build results
 
 ```bash
 $ yarn preview
@@ -140,12 +129,6 @@ npx lint-staged
   }
 }
 ```
-
-# Future plans
-
-- [ ] add Directory structure
-- [ ] add Testing Framework（Jest, React-Testing-Library）
-- [ ] add Global Store（Recoil, Jotai etc...）
 
 # Contact
 
