@@ -1,3 +1,8 @@
+import emojiList from './store/emojiList.json';
+
+const emojis: EmojiList = emojiList;
+console.log(emojis);
+
 const App = () => (
   <div
     style={{
