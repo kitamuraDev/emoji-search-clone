@@ -1,22 +1,9 @@
+import Header from './base/Header';
 import emojiList from './store/emojiList.json';
 
 const emojis: EmojiList = emojiList;
 console.log(emojis);
 
-const App = () => (
-  <div
-    style={{
-      backgroundColor: '#282c34',
-      color: 'white',
-      minHeight: '100vh',
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      fontSize: 'calc(10px + 2vmin)',
-    }}
-  >
-    <p>Hello, React + TypeScript project Build with Vite.</p>
-  </div>
-);
+const App = () => <Header />;
 
 export default App;
