@@ -19,6 +19,6 @@
     "noEmit": true, // コンパイル結果を出力しない。
     "jsx": "react-jsx"
   },
-  "include": ["src"],
+  // "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
