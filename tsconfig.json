@@ -19,6 +19,6 @@
     "noEmit": true, // コンパイル結果を出力しない。
     "jsx": "react-jsx"
   },
-  // "include": ["src"],
+  "include": ["src/**/*"], // コンパイル対象ファイルを指定。"src/**/*"で再起的にすべてコンパイル対象にする
   "references": [{ "path": "./tsconfig.node.json" }]
 }
