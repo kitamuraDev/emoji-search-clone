@@ -1,8 +1,8 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import { useState } from 'react';
 
 import Header from './base/Header';
 import SearchInput from './case/SearchInput';
+import EmojiResults from './domain/EmojiResults';
 import filterEmoji from './utils/filterEmoji';
 
 const App = () => {
@@ -17,6 +17,7 @@ const App = () => {
     <div>
       <Header />
       <SearchInput handleChange={handleSearchChange} />
+      <EmojiResults emojiList={filterdEmoji} />
     </div>
   );
 };
