@@ -25,6 +25,7 @@
 ### Library
 
 ![React](https://img.shields.io/badge/React-v18.2.0-blue)
+![react-copy-to-clipboard](https://img.shields.io/badge/react_copy_to_clipboard-v5.1.0-blue)
 
 ### Build Tool
 
