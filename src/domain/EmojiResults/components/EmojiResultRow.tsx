@@ -1,5 +1,6 @@
 import { FC, memo } from 'react';
 
+import CopyToClipboard from 'react-copy-to-clipboard';
 import './emojiResultRow.css';
 
 type Props = {
@@ -12,11 +13,13 @@ const EmojiResultRow: FC<Props> = memo((props) => {
   const src = `//cdn.jsdelivr.net/emojione/assets/png/${codePointHex}.png`;
 
   return (
-    <div className='component-emoji-result-row'>
-      <img alt={props.title} src={src} />
-      <span className='title'>{props.title}</span>
-      <span className='info'>Click to copy emoji</span>
-    </div>
+    <CopyToClipboard text={props.symbol}>
+      <div className='component-emoji-result-row'>
+        <img alt={props.title} src={src} />
+        <span className='title'>{props.title}</span>
+        <span className='info'>Click to copy emoji</span>
+      </div>
+    </CopyToClipboard>
   );
 });
 
